@@ -10,4 +10,5 @@ class PdfParser():
         for i in range(len(reader.pages)):
             page=reader.pages[i]
             text.append(page.extract_text())
-        return " ".join(text)    
+        return " ".join(text)
+    
